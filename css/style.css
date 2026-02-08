@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(233, 196, 242);}
+    @font-face {
+        font-family: new font;
+        src: url(../fonts/Roboto-VariableFont_wdth,wght.ttf)
+    }
+    h1, h2, h3 {
+        font-family: new font;
+        src:url(../fonts/PlayfairDisplay-VariableFont_wght.ttf)
+    }
+img{
+    width: 500px;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 15px auto;
+}
+p{line-height: 1.5;}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+}
+nav li a {
+    padding: .2rem;
+    background-color: rgb(216, 156, 229);
+    display: block;
+}
+.cta-btn{
+    color: black;
+    background-color: rgb(216, 156, 229);
+    padding: 10px 16px;
+    display: inline block;
+    border-radius: 5px;
+}
